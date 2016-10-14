@@ -1,0 +1,3 @@
+---
+dataexample::confdir: /etc/dataexample
+dataexample::randomvalue: 42
