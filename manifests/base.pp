@@ -1,5 +1,5 @@
 class dataexample::base {
-  file { $dataexample::confir:
+  file { $dataexample::confdir:
     ensure => directory,
     owner  => 'root',
     group  => 'root',
