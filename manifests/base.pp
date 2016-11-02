@@ -6,7 +6,7 @@ class dataexample::base {
   }
 
   file { "${dataexample::confdir}/values.conf":
-    ensure => file,
+    ensure  => file,
     content => "${dataexample::randomvalue}\n",
   }
 }

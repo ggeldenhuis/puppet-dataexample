@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ggeldenhuis/puppet-dataexample.svg?branch=master)](https://travis-ci.org/ggeldenhuis/puppet-dataexample)
 # puppet-dataexample
 
 ## Things to check for
