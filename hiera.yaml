@@ -1,5 +1,10 @@
 ---
-version: 4
+version: 5
+
 hierarchy:
   - name: "common"
-    backend: yaml
+    path: common.yaml
+
+defaults:
+  data_hash: yaml_data
+  datadir: data

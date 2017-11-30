@@ -1,3 +1,3 @@
 ---
-dataexample::confdir: /etc/dataexample
+dataexample::confdir: /tmp/dataexample
 dataexample::randomvalue: 42
