@@ -2,5 +2,6 @@ class dataexample (
   String  $confdir,
   Integer $randomvalue,
 ) {
-  contain dataexample::base
+  class { 'dataexample::install': } ->
+  class { 'dataexample::config': }
 }
